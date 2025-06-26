@@ -15,7 +15,7 @@ export default function LunchRSVPApp() {
     setSubmitted(true);
 
     try {
-      await fetch("https://script.google.com/a/macros/entri.me/s/AKfycbzrjtXU47B8GWvJBLPGsAr5Raav8Dsj3wW7oFYUids-E-es-uXlD0LNc2jv3bIsWK0Q/exec", {
+      await fetch("https://script.google.com/macros/library/d/18ajORxWUFQoTWfURs_qdLB9pr7QveT9xxgfBlLKZXDY_x4WPE4UZzyta/1", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
